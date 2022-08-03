@@ -1,16 +1,3 @@
---create table if not exists account
---(
-  --  id_account  serial
-  --      primary key,
-    --first_name  varchar(80),
-    --last_name   varchar(80)  not null,
-    --nickname    varchar(50),
-   -- birthday    date         not null,
-    --gender      varchar(50)         not null,
-    --email       varchar(100) not null,
-    --profile_pic varchar(250) default 'default.png'::character varying
---);
-
 create table if not exists account
 (
     id_account  serial

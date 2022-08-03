@@ -6,9 +6,8 @@ create table if not exists account
     last_name   varchar(80)  not null,
     nickname    varchar(50),
     birthday    date         not null,
-    gender      char         not null,
-    email       varchar(100) not null
-        unique,
+    gender      varchar(50)         not null,
+    email       varchar(100) not null,
     profile_pic varchar(250) default 'default.png'::character varying
 );
 
